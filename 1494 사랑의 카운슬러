@@ -30,8 +30,8 @@ long long res;
 //크기를 계산했다.
 //고른지 안고른지 여부는 dfs()함수에서 visited배열에 기록
 void calcVector() {
-	vector<Point> selected; // 고른 벡터를 저장
-	vector<Point> unSelected;//고르지 않은 벡터를 저장
+	vector<Point> selected; // 고른 정점을 저장
+	vector<Point> unSelected;//고르지 않은  저장
 	for (int i = 0; i < n; i++) {
 		if (visited[i]) {
 			selected.push_back(p[i]);
