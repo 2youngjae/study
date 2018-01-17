@@ -66,3 +66,4 @@ int main() {
 		printf("#%d %d\n", t, d[12]);
 	}
 }
+ 
