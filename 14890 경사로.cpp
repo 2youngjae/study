@@ -6,7 +6,7 @@ bool visited[100];
 int n, l, res;
 
 void f1(int r,int c) {
-	if (map[r][c + 1] == 0) {
+	if (c == n) {
 		res++;
 		return;
 	}
@@ -36,7 +36,7 @@ void f1(int r,int c) {
 }
 
 void f2(int r, int c) {
-	if (map[r+1][c] == 0) {
+	if (r == n) {
 		res++;
 		return;
 	}
