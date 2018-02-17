@@ -32,10 +32,9 @@ void comp() {
 		if (check[i]) a.push_back(i);
 		else b.push_back(i);
 	}
-
-	int aa = getScore(a);
-	int bb = getScore(b);
-	if (res > abs(aa - bb)) res = abs(aa - bb);
+	
+	int ans = abs(getScore(a)-getScore(b));
+	if (res > ans) res = ans;
 }
 
 //백트래킹을 통해 모든경우에 대해 차이를 구함
