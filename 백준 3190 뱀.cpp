@@ -22,7 +22,7 @@ struct Node {
 	int y;
 };
 
-//방향전환정보를 구조화시킨 구조체
+//방향정보를  구조체
 struct Dir {
 	int time;
 	char c;
